@@ -3,14 +3,67 @@
 
   <head>
     <link rel="stylesheet" href ="./style.css">
-    <title>My Personal Website</title>
+    <title>CalFalcon's Peregrine Falcons</title>
   </head>
 
   <body>
     <!--This Section is the Main Title-->
-    <section id="MainTitle">
-    <h1>Eric Song Personal Website</h1>
+  <section id="MainTitle">
+    <h1>Peregrine Falcons Nesting at UC Berkeley's Campanile, 2022</h1>
     <script src="script.js"></script>
+  </section>
+
+  <section id ="ShortDescription">
+    <h2>Peregrine Falcons</h2>
+      <p>
+        The peregrine falcon (Falco peregrinus), also known as the peregrine, 
+        and historically as the duck hawk in North America, 
+        is a cosmopolitan bird of prey (raptor) in the family Falconidae. 
+        A large, crow-sized falcon, it has a blue-grey back, barred white underparts, 
+        and a black head. The peregrine is renowned for its speed, reaching over 320 km/h (200 mph) 
+        during its characteristic hunting stoop (high-speed dive), 
+        making it the fastest bird in the world, as well as the fastest member of the animal kingdom.
+        According to a National Geographic TV program, the highest measured speed of a peregrine falcon is 389 km/h (242 mph).
+        As is typical for bird-eating raptors, peregrine falcons are sexually dimorphic, with females being considerably larger than males.
+      </p>
+  </section>
+
+  <section id="Gallery">
+    <h2 style="text-align:center">CalFalcons Bird Gallery</h2>
+
+    <div class="container">
+      <div class="mySlides">
+      <div class="numbertext">1 / 3</div>
+      <img src="./images/king.jpg" alt="Baby Bird" style="width:75%" class="largeimage">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 3</div>
+      <img src="./images/loaf1.jpg" alt="Sleeping Bird" style="width:75%" class="largeimage">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 3</div>
+      <img src="./images/look.jpg" alt="Just Hatched" style="width:75%" class="largeimage">
+    </div>
+
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="./images/king.jpg" style="width:30%" onclick="currentSlide(1)" alt="King">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="./images/loaf1.jpg" style="width:30%" onclick="currentSlide(2)" alt="Loaf">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="./images/look.jpg" style="width:30%" onclick="currentSlide(3)" alt="Look">
+      </div>
   </section>
 
   <!--This Section is for the bottom banner-->
