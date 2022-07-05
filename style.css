@@ -32,7 +32,10 @@ body {
 }
 
 img {
-  vertical-align: middle;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Position the image container (needed to position the left and right arrows) */
@@ -106,7 +109,7 @@ img {
 /* Three columns side by side */
 .column {
   float: left;
-  width: 33%;
+  width: 16.66%;
 }
 
 /* Add a transparency effect for thumnbail images */
