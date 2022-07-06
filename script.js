@@ -1,5 +1,3 @@
-
-
 //GALLERY CODE STARTS HERE//
 let slideIndex = 1;
 
