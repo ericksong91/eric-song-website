@@ -8,15 +8,19 @@ body {
 
 #details div{
   text-align:center;
-  background: grey;
+  background: rgb(81, 81, 81);
   bottom:0;
   float:left;
-  width: 25%;
+  width: 50%;
+  margin-top: 10em;
+  margin-bottom: 0.75em;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 
 #ShortDescription {
   text-align:center;
-  
 
 }
 
@@ -36,6 +40,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+
 }
 
 /* Position the image container (needed to position the left and right arrows) */
@@ -84,8 +89,9 @@ img {
 
 /* Number text (1/3 etc) */
 .numbertext {
+  background:rgb(81,81,81);
   color: #f2f2f2;
-  font-size: 12px;
+  font-size: 20px;
   padding: 8px 12px;
   position: absolute;
   top: 0;
