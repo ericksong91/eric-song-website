@@ -1,5 +1,5 @@
 body {
-    background: grey;
+    background: rgb(169, 169, 169);
   }
 
 #MainTitle h1 {
@@ -19,9 +19,17 @@ body {
 }
 
 
-#ShortDescription {
-  text-align:center;
+#ShortDescription p {
+  text-align:left;
+  margin-top: 1em;
+  margin-bottom: 0.75em;
+  margin-left: 20em;
+  margin-right: 20em;
 
+}
+
+#ShortDescription h2 {
+  text-align:center;
 }
 
 /* Style for Gallery Here */
@@ -121,6 +129,7 @@ img {
 /* Add a transparency effect for thumnbail images */
 .demo {
   opacity: 0.6;
+
 }
 
 .active,

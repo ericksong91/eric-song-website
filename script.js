@@ -2,6 +2,7 @@
 
 //GALLERY CODE STARTS HERE//
 let slideIndex = 1;
+
 showSlides(slideIndex);
 
 function plusSlides(n) {
