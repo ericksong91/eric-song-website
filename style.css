@@ -32,6 +32,10 @@ body {
   text-align:center;
 }
 
+#ShortDescription i {
+  font-size:small;
+}
+
 /* Style for Gallery Here */
 
 body {
